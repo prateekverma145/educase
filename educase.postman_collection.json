@@ -12,12 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3306/api/listSchools?lat=15.07&lng=42.87",
-					"protocol": "http",
+					"raw": "https://educase-zp18.onrender.com/api/listSchools?lat=12.9716&lng=77.5946\n",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"educase-zp18",
+						"onrender",
+						"com"
 					],
-					"port": "3306",
 					"path": [
 						"api",
 						"listSchools"
@@ -25,11 +26,11 @@
 					"query": [
 						{
 							"key": "lat",
-							"value": "15.07"
+							"value": "12.9716"
 						},
 						{
 							"key": "lng",
-							"value": "42.87"
+							"value": "77.5946\n"
 						}
 					]
 				}
@@ -43,7 +44,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"st joseph\",\r\n  \"address\": \"gurugram\",\r\n  \"latitude\": 68.6139,\r\n  \"longitude\": 97.2090\r\n}",
+					"raw": "{\r\n  \"name\": \"st mary\",\r\n  \"address\": \"gurugram\",\r\n  \"latitude\": 85.6139,\r\n  \"longitude\": 97.2090\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -51,12 +52,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3306/api/addSchool",
-					"protocol": "http",
+					"raw": "https://educase-zp18.onrender.com/api/addSchool",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"educase-zp18",
+						"onrender",
+						"com"
 					],
-					"port": "3306",
 					"path": [
 						"api",
 						"addSchool"
