@@ -7,7 +7,7 @@ A RESTful API for managing school information with location-based features.
 - Node.js (v14 or higher)
 - MySQL Server
 - npm (Node Package Manager)
-
+## IN env.sample there are my credential you can use by  just changing  its name to .env
 ## Setup Instructions
 
 1. Clone the repository:
