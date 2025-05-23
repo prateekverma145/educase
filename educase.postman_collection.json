@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "0c536e75-457d-438a-917e-d8480a054f9b",
+		"name": "educase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33157075"
+	},
+	"item": [
+		{
+			"name": "listSchools",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3306/api/listSchools?lat=15.07&lng=42.87",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3306",
+					"path": [
+						"api",
+						"listSchools"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "15.07"
+						},
+						{
+							"key": "lng",
+							"value": "42.87"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addSchool",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"st joseph\",\r\n  \"address\": \"gurugram\",\r\n  \"latitude\": 68.6139,\r\n  \"longitude\": 97.2090\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3306/api/addSchool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3306",
+					"path": [
+						"api",
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
