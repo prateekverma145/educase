@@ -8,6 +8,8 @@ A RESTful API for managing school information with location-based features.
 - MySQL Server
 - npm (Node Package Manager)
 ## IN env.sample there are my credential you can use by  just changing  its name to .env
+## live swagger <a href="https://educase-zp18.onrender.com/api-docs/">live</a>
+## for postman testing <a href="https://drive.google.com/file/d/1QElp9yJtAtWk63WV_GlPqWNsg9K6pca3/view?usp=sharing">json file</a>
 ## Setup Instructions
 
 1. Clone the repository:
